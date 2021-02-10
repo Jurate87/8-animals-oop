@@ -1,7 +1,8 @@
+
 class Cat {
     constructor (vardas, kailis) {
         this.name = vardas;
-        this.furColor = kailis;
+        this.furColor = kailis || 'black';
         this.sound = 'Miau miau';
         this.isStanding = false;
         this.isEating = true;
